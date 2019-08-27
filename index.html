@@ -4,12 +4,45 @@
 
 <head>
     <meta charset="utf-8">
-
-    <title>Word Guess Game</title>
-
+    <title>1950s Word Guess Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 
 <body>
+    <header>
+        <p class="headline">1950s Hangman</p>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col-lg-3">
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://c1.neweggimages.com/NeweggImage/ProductImage/A20G_1_20130712148330427.jpg?ex=2" alt="jukebox" width="100%">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Press any key to get started!</p>
+                        <p>Wins: <span id="wins"></span></p>
+                        <p>Current Word:</p>
+                        <p id="word"></p>
+                        <p>Number of guesses remaining: <span id="guessesRemaining"></span></p>
+                        <p>Letters already guessed:</p>
+                        <p id="lettersGuessed"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+            </div>
+        </div>
+    </section>
 
 </body>
 

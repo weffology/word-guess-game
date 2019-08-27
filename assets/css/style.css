@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://cdn4.vectorstock.com/i/thumb-large/93/03/1950s-stars-pattern-background-vector-1479303.jpg");
+    background-repeat: repeat;
+}
+
+.headline {
+    text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
+    color: black;
+    font-size: 100px;
+}
